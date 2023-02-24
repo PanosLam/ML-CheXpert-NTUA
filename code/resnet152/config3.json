@@ -1,0 +1,1 @@
+{"evaluate_ensemble":"true","model":"resnet152","data_path":"./archive","output_dir":"./results/2023-02-15_15-09-36","restore":"./results/2023-02-15_15-09-36","plot_roc":"true"}

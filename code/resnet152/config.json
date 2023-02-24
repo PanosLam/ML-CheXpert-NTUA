@@ -1,0 +1,1 @@
+{"train":"true","data_path":"./archive","model":"densenet121","pretrained":"true","cuda":"CUDA"}

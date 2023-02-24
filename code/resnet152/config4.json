@@ -1,0 +1,1 @@
+{"visualize":"true","model":"resnet152","data_path":"../archive","output_dir":"./results/","restore":"./results/2023-02-15_15-09-36/optim_checkpoint_latest/optim_checkpoint_latest/data/"}
