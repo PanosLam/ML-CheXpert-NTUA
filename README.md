@@ -12,4 +12,6 @@ We decided to work with the [CheXpert dataset](https://stanfordmlgroup.github.io
 
 Project page: https://helios.ntua.gr/mod/assign/view.php?id=29626
 
+Overleaf doc: https://www.overleaf.com/project/63c726ffc7ea5aca0f2f17f4
+
 This repository contains all the related work done in the scope of the project.
