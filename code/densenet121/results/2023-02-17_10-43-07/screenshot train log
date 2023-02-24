@@ -1,0 +1,32 @@
+(base) vaia@vaia-OptiPlex-5060:~/Documents/MachineLearning/Exercise2/densenet run$ python chexpert.py --load_config ./config.json
+/home/vaia/anaconda3/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/vaia/anaconda3/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=DenseNet121_Weights.IMAGENET1K_V1`. You can also use `weights=DenseNet121_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/densenet121-a639ec97.pth" to /home/vaia/.cache/torch/hub/checkpoints/densenet121-a639ec97.pth
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30.8M/30.8M [00:00<00:00, 39.8MB/s]
+/home/vaia/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 12, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/vaia/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 12, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Loaded DenseNet (number of parameters: 6,958,981; weights trained to step 0)
+Train data length:  223414
+Valid data length:  234
+Vis data subset:  22
+Step at start 0; Training epoch 1/1:   1%|▌                                                                          | 98/13964 [06:14<14:46:04,  3.83s/it, lossStep at start 0; Training epoch 1/1:   1%|▌                                                                          | 98/13964 [06:18<14:46:04,  3.83s/it, lossStep at start 0; Training epoch 1/1:   1%|▌                                                                          | 99/13964 [06:18<14:45:21,  3.83s/it, lossStep at start 0; Training epoch 1/1:   1%|▌                                                                          | 99/13964 [06:22<14:45:21,  3.83s/it, lossStep at start 0; Training epoch 1/1:   1%|▌                                                                         | 100/13964 [06:22<14:39:50,  3.81s/it, lossStep at start 0; Training epoch 1/1:   1%|▌                                                                         | 100/13964 [06:25<14:39:50,  3.81s/it, lossStep at start 0; Training epoch 1/1:   1%|▌                                                                         | 101/13964 [06:25<14:38:36,  3.80s/it, lossStep at start 0; Training epoch 1/1:   1%|▌                                                                         | 101/13964 [06:29<14:38:36,  3.80s/it, lossStep at start 0; Training epoch 1/1:   1%|▌                     Step at start 0; Training epoch 1/1:   1%|▌                                                     Step at start 0; Training epoch 1/1:   1%|▌                                                                         | 106/13964 [06:48<14:27:56,  3.76s/it, lossStep at start 0; Training epoch 1/1:   1%|▌                                     Step at start 0; Training epoch 1/1:   3%|██▏                                   Step at start 0; Training epoch 1/1:   4%|██▋                                           Step at start 0; Training epoch 1/1:   4%|███▏                                          Step at start 0; Training epoch 1/1: 100%|████████████████████████████████████████████████████████████████████████| 13964/13964 [13:07:22<00:00,  3.38s/it, loss=2.4187]
+Evaluate metrics @ step 13964:
+AUC:
+ {0: 0.790340909090909,
+ 1: 0.8132530120481928,
+ 2: 0.869742198100407,
+ 3: 0.9274544385655497,
+ 4: 0.9378854231834838}
+Loss:
+ {0: 0.5233967304229736,
+ 1: 0.6409068703651428,
+ 2: 0.31899696588516235,
+ 3: 0.26982399821281433,
+ 4: 0.30314192175865173}
+(base) vaia@vaia-OptiPlex-5060:~/Documents/MachineLearning/Exercise2/densenet run$ 
+
+
